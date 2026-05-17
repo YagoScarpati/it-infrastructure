@@ -1061,6 +1061,87 @@ section.active { display: block; }
       </div>
     </div>
 
+    <!-- P6 -->
+    <div class="project-card" onclick="toggleProject(this)">
+      <div class="project-header">
+        <span class="project-num">06</span>
+        <div class="project-info">
+          <div class="project-title">GPO de Restrição de Acesso em Férias</div>
+          <div class="project-tags">
+            <span class="ptag ptag-blue">Active Directory</span>
+            <span class="ptag ptag-red">Segurança</span>
+            <span class="ptag ptag-gold">GPO</span>
+          </div>
+        </div>
+        <span class="project-arrow">▶</span>
+      </div>
+      <div class="project-body">
+        <p>Implementação de Group Policy Object (GPO) corporativa para controle de acesso de dispositivos durante períodos de férias. A política aplica <strong>Logon Denied</strong> automaticamente em notebooks de colaboradores em período de vacation, reduzindo riscos de segurança por acessos não autorizados ou indevidos durante ausências.</p>
+        <div class="metrics-row">
+          <div class="metric-box">
+            <div class="metric-val">GPO</div>
+            <div class="metric-lbl">Política aplicada</div>
+          </div>
+          <div class="metric-box">
+            <div class="metric-val">Auto</div>
+            <div class="metric-lbl">Bloqueio automático</div>
+          </div>
+          <div class="metric-box">
+            <div class="metric-val">0</div>
+            <div class="metric-lbl">Acessos indevidos</div>
+          </div>
+        </div>
+        <div class="project-steps">
+          <div class="step"><div class="step-dot"></div>Levantamento dos requisitos de segurança para controle de acesso durante períodos de férias corporativas</div>
+          <div class="step"><div class="step-dot"></div>Criação e configuração da GPO com regra de Logon Denied aplicada por período e por grupo de dispositivos</div>
+          <div class="step"><div class="step-dot"></div>Testes em ambiente controlado para validar aplicação da política sem impacto em usuários ativos</div>
+          <div class="step"><div class="step-dot"></div>Deploy gradual com monitoramento de logs de autenticação para garantir funcionamento correto</div>
+          <div class="step"><div class="step-dot"></div>Documentação técnica da política e processo de ativação/desativação para o ciclo de férias</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- P7 -->
+    <div class="project-card" onclick="toggleProject(this)">
+      <div class="project-header">
+        <span class="project-num">07</span>
+        <div class="project-info">
+          <div class="project-title">Saneamento de Contas de Serviço — Segurança e Conformidade</div>
+          <div class="project-tags">
+            <span class="ptag ptag-red">Segurança</span>
+            <span class="ptag ptag-blue">IAM</span>
+            <span class="ptag ptag-gold">458 contas</span>
+          </div>
+        </div>
+        <span class="project-arrow">▶</span>
+      </div>
+      <div class="project-body">
+        <p>Projeto de saneamento e remediação de <strong>458 contas de serviço</strong> identificadas com vulnerabilidades de segurança no ambiente corporativo. O trabalho envolveu padronização de senhas, revisão e adequação de grupos de acesso e aplicação de políticas de segurança — eliminando riscos de exposição e trazendo as contas para conformidade com os padrões corporativos.</p>
+        <div class="metrics-row">
+          <div class="metric-box">
+            <div class="metric-val">458</div>
+            <div class="metric-lbl">Contas saneadas</div>
+          </div>
+          <div class="metric-box">
+            <div class="metric-val">100%</div>
+            <div class="metric-lbl">Em conformidade</div>
+          </div>
+          <div class="metric-box">
+            <div class="metric-val">0</div>
+            <div class="metric-lbl">Vulnerabilidades restantes</div>
+          </div>
+        </div>
+        <div class="project-steps">
+          <div class="step"><div class="step-dot"></div>Inventário e auditoria completa das contas de serviço existentes no ambiente para identificação de vulnerabilidades</div>
+          <div class="step"><div class="step-dot"></div>Classificação de risco por conta: senhas fracas, sem expiração configurada, grupos excessivos ou sem owner definido</div>
+          <div class="step"><div class="step-dot"></div>Padronização de senhas com geração automática via PowerShell, aplicando critérios de complexidade e comprimento mínimo</div>
+          <div class="step"><div class="step-dot"></div>Revisão e adequação de grupos de acesso: remoção de permissões excessivas e aplicação do princípio de menor privilégio</div>
+          <div class="step"><div class="step-dot"></div>Aplicação de políticas de segurança (GPO) e definição de owners responsáveis para cada conta de serviço</div>
+          <div class="step"><div class="step-dot"></div>Validação final e documentação de todas as contas saneadas para auditoria e rastreabilidade</div>
+        </div>
+      </div>
+    </div>
+
   </div>
 </section>
 
